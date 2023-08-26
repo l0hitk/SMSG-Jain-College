@@ -13,6 +13,30 @@
     position: relative;
 }
 
+.header1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header1 h1{
+    padding-left: 15px;
+    color: grey;
+}
+.header1 h2{
+    color:grey
+}
+.header1 p{
+    margin: 25px;
+    padding: 5px 2px;
+    text-align: start;
+    justify-content:left;
+    color: #fff;
+}
+
 nav{
     display: flex;
     padding: 2% 6%;
