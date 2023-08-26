@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Poppins',sans-serif;
 }
-
 .header{
     min-height: 100vh;
     width: 100%;
@@ -12,7 +11,6 @@
     background-size: cover;
     position: relative;
 }
-
 .header1{
     min-height: 100vh;
     width: 100%;
@@ -21,7 +19,6 @@
     background-size: cover;
     position: relative;
 }
-
 .header1 h1{
     padding-left: 15px;
     color: grey;
@@ -36,37 +33,30 @@
     justify-content:left;
     color: #fff;
 }
-
 nav{
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
 }
-
 nav img{
     width: 150px;
-
 }
-
 .nav-links{
     flex: 1;
     text-align: right;
 }
-
 .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
-
 .nav-links ul li a{
     color: aliceblue;
     text-decoration: none;
     font-size: 13px;
 }
-
 .nav-links ul li::after{
     content: '';
     width: 0%;
@@ -76,11 +66,9 @@ nav img{
     margin: auto;
     transition: 0.5s;
 }
-
 .nav-links ul li:hover::after{
     width: 100%;
 }
-
 .text-box{
     width: 99%;
     color: #fff;
@@ -90,7 +78,6 @@ nav img{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-
 .text-box h1{
     font-size: 62px;
 }
@@ -99,7 +86,6 @@ nav img{
     font-size: 40px;
     color: #fff;
 }
-
 .hero-btn{
     display: inline-block;
     text-decoration: none;
@@ -110,30 +96,24 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
-
 }
-
 .hero-btn:hover{
     border: 1px solid #f44336;
     background: #f44336;
     transition: 1s;
-
 }
-
-
 nav .fa{
     display: none;
 }
-
 @media(max-width:700px){
     .text-box h1{
-        font-size: 30px;
+        font-size: 35px;
     }
     .text-box p{
-        font-size: 15px;
+        font-size: 25px;
     }
     .nav-links ul li{
-        display: block;
+        display: block;     
     }
     .nav-links{
         position: absolute;
@@ -153,15 +133,10 @@ nav .fa{
         font-size: 22px;
         cursor: pointer;
     }
-
     .nav-links ul{
         padding: 50px;
-
     }
-
 }
-
-
 .course{
     width: 80%;
     margin: auto;
@@ -179,15 +154,12 @@ p{
     line-height: 22px;
     padding: 10px;
 }
-
-
 .row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .course-col{
     flex-basis: 31%;
     background: #fff3f3;
@@ -197,31 +169,25 @@ p{
     box-sizing: border-box;
     transition: 1s;
 }
-
 h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
 }
-
 .course-col:hover{
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
-
 @media(max-width:700px){
     .row{
         flex-direction: column;
     }
 }
-
-
 .campus{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;    
 }
-
 .campus-col{
     flex-basis: 32%; 
     font-size: medium;
@@ -230,12 +196,10 @@ h3{
     position: relative;
     overflow: hidden;
 }
-
 .campus-col img{
     width: 100%;
     display: block;
 }
-
 .layer{
     background: transparent;
     height: 100%;
@@ -245,11 +209,9 @@ h3{
     left: 0;
     transition: 1s;
 }
-
 .layer:hover{
     background: rgba(226, 0,0,0.7);
 }
-
 .layer h3{
     width: 100%;
     font-weight: 500;
@@ -262,17 +224,14 @@ h3{
     opacity: 0;
     transition: 1s;
 }
-
 .layer h3 a{
     list-style: none;
     color: #fff;
     text-decoration: none;
 }
-
 .layer:hover h3{
     bottom: 35%;
     opacity: 1;
-
 } 
 .facilities {
     width: 80%;
@@ -280,8 +239,6 @@ h3{
     text-align: center;
     padding-top: 100px;
 }
-
-/*--------call to action-------*/
 .cta{
     margin: 100px auto;
     width: 80%;
@@ -292,19 +249,14 @@ h3{
     text-align: center;
     padding: 100px 0;
 }
-
-
 .cta h1{
     color:black;
     margin-bottom: 10px;
     padding: 0;
 }
-
 .cta p{
     color:#fff
 }
-
-
 p{
     color:black;
     margin-bottom: 0px;
@@ -315,7 +267,6 @@ p{
     text-align: center;
     padding: 10px 0;
 }
-
 .icons
 {
     width: 100%;
@@ -323,7 +274,6 @@ p{
     text-align: center;
     padding-top: 50px;
 }
-<!----visit us----->
 .location{
     width: 80%;
     margin: auto;
